@@ -1,0 +1,15 @@
+{
+  "name": "clase-39-mercado-liebre",
+  "version": "1.0.0",
+  "description": "si",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ricardina zabala",
+  "license": "ISC"
+}
