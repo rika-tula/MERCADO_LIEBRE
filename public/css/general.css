@@ -8,5 +8,13 @@
     --verde:#39b54a;
 
     /*TIPOGRAFIA*/
-    --roboto:'Roboto';
+    --FamilyRoboto:'Roboto', sans-serif;
+    --cuerpodetexto: 12px;
+    --TitularesVisitasOferta: 24px;
+    --Precios: 18px;
+    --Descuentos: 16px;
+    --Descripciones: 16px;
+
+    /*ÏCONOS*/
+    
 }
