@@ -16,6 +16,9 @@
     --Precios: 18px;
     --Descuentos: 16px;
     --Descripciones: 16px;
+
+    /*FOOTER ICONOS*/
+    --iconos:2em;
 }
 
 *{
@@ -24,4 +27,8 @@
 
 body{
     background-color: var(--amarillo);
+}
+
+footer{
+    background-color: white;
 }
