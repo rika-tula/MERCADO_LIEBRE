@@ -9,12 +9,19 @@
 
     /*TIPOGRAFIA*/
     --FamilyRoboto:'Roboto', sans-serif;
+
+    /*TAMAÑO DE TIPOGRAFIA*/
     --cuerpodetexto: 12px;
     --TitularesVisitasOferta: 24px;
     --Precios: 18px;
     --Descuentos: 16px;
     --Descripciones: 16px;
+}
 
-    /*ÏCONOS*/
-    
+*{
+    font-family: var(--FamilyRoboto);
+}
+
+body{
+    background-color: var(--amarillo);
 }

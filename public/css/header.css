@@ -1,0 +1,40 @@
+.home img{
+    width: 180px;
+    margin: 10px 25px 20px 30px;
+}
+
+.home input{
+    margin-left: 18px;
+    width: 230px;
+}
+
+.home .lupa{
+    background-color: var(--grisClaro);
+    margin: 1px 0px 0px 18px;
+    padding-left: 1px;
+    width: 17px;
+    border: solid 1px var(--grisOscuro);
+}
+
+.home h4{
+    padding-left: 53px;
+    font-weight: normal;
+}
+
+.home nav ul{
+    padding-left: 0px;
+    list-style: none;
+}
+
+.home a{
+    color: black;
+    text-decoration: none;
+}
+
+.home .burger-menu i{
+    background-color: var(--celeste);
+    color: var(--grisClaro);
+    margin: 0px 0px 0px 200px;
+    padding: 9px 9px 9px 9px;
+    border-radius: 5px;
+}
