@@ -1,0 +1,21 @@
+.footer i{
+    padding-left: 48.5%;
+    font-size: 40px;
+    color: var(--celeste);
+    margin-top: 70px;
+}
+
+.footer h4{
+    text-align: center;
+    color: var(--grisOscuro);
+    margin-bottom: -15px;
+}
+
+.footer p{
+    font-weight: normal;
+    padding-left: 37.5%;
+    padding-right: 37.5%;
+    text-align: center;
+    line-height: 20px;
+    color: var(--grisOscuro);
+}
