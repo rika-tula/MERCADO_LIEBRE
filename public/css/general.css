@@ -4,6 +4,7 @@
     --azul:#03264C;
     --celeste:#1259c3;
     --grisOscuro:#666;
+    --gris:#dedede;
     --grisClaro:#ebebeb;
     --verde:#39b54a;
 
@@ -11,11 +12,11 @@
     --FamilyRoboto:'Roboto', sans-serif;
 
     /*TAMAÑO DE TIPOGRAFIA*/
-    --cuerpodetexto: 12px;
-    --TitularesVisitasOferta: 24px;
-    --Precios: 18px;
-    --Descuentos: 16px;
-    --Descripciones: 16px;
+    --cuerpoDeTexto: 12px;
+    --titularesVisitasOferta: 24px;
+    --precios: 18px;
+    --descuentos: 16px;
+    --descripciones: 16px;
 
     /*FOOTER ICONOS*/
     --iconos:2em;

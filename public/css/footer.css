@@ -1,21 +1,30 @@
 .footer i{
-    padding-left: 48.5%;
-    font-size: 40px;
+    font-size: var(--iconos);
     color: var(--celeste);
-    margin-top: 70px;
+    text-align: center;
+    margin-top: 60px;
 }
 
 .footer h4{
-    text-align: center;
+    font-size: var(--descripciones);
     color: var(--grisOscuro);
-    margin-bottom: -15px;
+    text-align: center;
+    margin: 10px 0px -12px 0px;
 }
 
-.footer p{
-    font-weight: normal;
-    padding-left: 37.5%;
-    padding-right: 37.5%;
-    text-align: center;
-    line-height: 20px;
+.footer .parrafo{
+    font-size: var(--cuerpoDeTexto);
     color: var(--grisOscuro);
+    font-weight: normal;
+    text-align: center;
+    line-height: 15px;
+    padding: 0px 24px 0px 24px;
+}
+
+.footer .copy{
+    font-size: var(--cuerpoDeTexto);
+    color: var(--grisOscuro);
+    font-weight: normal;
+    line-height: 15px;
+    padding: 20px 0px 15px 15px;
 }

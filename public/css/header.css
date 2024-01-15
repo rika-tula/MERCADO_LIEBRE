@@ -1,29 +1,33 @@
 .home img{
-    width: 180px;
-    margin: 10px 25px 20px 30px;
+    width: 120px;
+    margin: 18px 20px 15px 20px;
 }
 
 .home input{
-    margin-left: 18px;
-    width: 230px;
+    margin-left: 9px;
+    width: 170px;
 }
 
 .home .lupa{
+    font-size: 13px;
     background-color: var(--grisClaro);
-    margin: 1px 0px 0px 18px;
+    margin: 1px 0px 0px 10px;
     padding-left: 1px;
-    width: 17px;
+    width: 14px;
     border: solid 1px var(--grisOscuro);
 }
 
 .home h4{
-    padding-left: 53px;
+    font-size: var(--cuerpoDeTexto) ;
+    padding-left: 40px;
     font-weight: normal;
 }
 
 .home nav ul{
-    padding-left: 0px;
+    font-size: var(--cuerpoDeTexto);
+    padding: 0px;
     list-style: none;
+    margin-left: 0px;
 }
 
 .home a{
@@ -34,7 +38,7 @@
 .home .burger-menu i{
     background-color: var(--celeste);
     color: var(--grisClaro);
-    margin: 0px 0px 0px 200px;
-    padding: 9px 9px 9px 9px;
+    margin-left: 150px;
+    padding: 7px 8px 7px 8px;
     border-radius: 5px;
 }
