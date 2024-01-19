@@ -7,6 +7,7 @@
     --gris:#dedede;
     --grisClaro:#ebebeb;
     --verde:#39b54a;
+    --blanco:white;
 
     /*TIPOGRAFIA*/
     --FamilyRoboto:'Roboto', sans-serif;
@@ -23,13 +24,20 @@
 }
 
 *{
+    box-sizing: border-box;
     font-family: var(--FamilyRoboto);
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
-body{
+header{
     background-color: var(--amarillo);
 }
 
+main{
+    background-color: var(--grisOscuro);
+}
+
 footer{
-    background-color: white;
+    background-color: var(--blanco);
 }
