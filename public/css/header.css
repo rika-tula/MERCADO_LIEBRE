@@ -1,26 +1,35 @@
 .home img{
-    width: 120px;
+    width: 35%;
     margin: 18px 20px 15px 20px;
 }
 
-.home input{
-    margin-left: 9px;
-    width: 170px;
+.home form{
+    padding-left: 10px;
 }
 
-.home .lupa{
+.home form input{
+    display: inline;
+    margin: 0px;
+}
+
+.home .lupa {
+    display: inline;
     font-size: 13px;
     background-color: var(--grisClaro);
-    margin: 1px 0px 0px 10px;
+    margin: 1px 0px 0px 0px;
     padding-left: 1px;
-    width: 14px;
     border: solid 1px var(--grisOscuro);
 }
 
 .home h4{
-    font-size: var(--cuerpoDeTexto) ;
-    padding-left: 40px;
+    margin: 10px 0px 20px;
+    font-size: var(--cuerpoDeTexto);
     font-weight: normal;
+}
+
+.home nav{
+    margin: 0px 0px 10px;
+    display: none;
 }
 
 .home nav ul{
@@ -39,6 +48,6 @@
     background-color: var(--celeste);
     color: var(--grisClaro);
     margin-left: 140px;
-    padding: 7px 8px 7px 8px;
+    padding: 8px 8px 7px 8px;
     border-radius: 5px;
 }
