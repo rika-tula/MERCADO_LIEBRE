@@ -8,6 +8,7 @@
 }
 .articulo img{
     width: 100%;
+    border-bottom: solid 1px var(--grisClaro);
 }
 
 .articulo{
@@ -21,22 +22,41 @@
 }
 
 .articulo .fa-truck{
-    border-radius: 19px;
-    padding: 3px 15px 15px 3px;
     color: var(--verde);
-    border: solid 1px var(--verde);
 }
 
-.articulo .envio{
-    border-top: solid 1px var(--grisClaro);
+ .articulo .envio{
+    display: block;
+    font-size: 16px;
+    padding:5px;
+    width:30px;
+    height:30px;
+    border:1px solid var(--verde);
+    background-color: var(--blanco);
+    border-radius:50%;
+    position: relative;
+    top: -20px;
+    margin-left: auto;
+}
+
+.articulo .precio{
+    display: block;
+    position: relative;
+    top: -10px;
 }
 
 .articulo .oferta{
-    font-size: 14px;
+    display: block;
+    font-size: var(--descuentos);
     color: var(--verde);
+    position: relative;
+    top: -29px;
+    right: -90px;
 }
 .articulo .div-h5{
-    display: none;
+    display: block;
+    position: relative;
+    top: -5px;
     margin-bottom: 0px;
     font-weight: normal;
     color: var(--grisOscuro);
@@ -54,43 +74,8 @@
 }
 
 
-@media(min-width:360px) and (max-width:768px){ /*tablet*/
-
-    .home img{}
+@media(min-width:361px) and (max-width:768px){ /*tablet*/
     
-    .home form{}
-    
-    .home form input{}
-    
-    .home .lupa {}
-    
-    .home div{
-        width: 100%;
-    }
-    .home div h4{
-        padding: 0px;
-        text-align: center;
-    }
-    
-    .home .nav{
-        display: block;
-    }
-    
-    .home .nav ul{
-    padding-left: 5px;
-    }
-    .home .nav .ul{
-        padding-left: 5px;
-        padding-bottom: 15px;
-        }
-    
-    .home a{
-}
-    
-    .home .burger-menu i{
-        display: none;
-    }
-
     .main {
         width: 90%;
         background-color: var(--grisClaro);
@@ -101,30 +86,44 @@
     .main .seccion h4{}
 
     .main .seccion .articulo{
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
     .main .seccion .articulo img{
-}
+    }
 
-    .main .seccion .articulo .envio{}
+    .main .seccion .articulo .envio{
+        display: block;
+        font-size: 16px;
+        padding:5px;
+        width:30px;
+        height:30px;
+        background-color: var(--blanco);
+        border-radius:50%;
+        position: relative;
+        top: -20px;
+    }
 
     .main .seccion .articulo .precio{
         font-size: var(--precios);
     }
 
     .main .seccion .articulo .oferta{
-        font-size: var(--descuentos);
+        display: block;
+        color: var(--verde);
+        position: relative;
+        top: -29px;
+        right: -86px;
     }
 
     .main .seccion .articulo .div-h5{
         display: block;
-        margin-top: 16px;
         font-size: var(--descripciones);
     }
 }
 
 @media(min-width:769px) { /*Desktop*/
+ 
     .home img{}
     
     .home form{}
@@ -151,10 +150,10 @@
     .home .nav .ul{
         padding-left: 5px;
         padding-bottom: 15px;
-        }
+    }
     
     .home a{
-}
+    }
     
     .home .burger-menu i{
         display: none;
@@ -170,25 +169,39 @@
     .main .seccion h4{}
 
     .main .seccion .articulo{
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
     .main .seccion .articulo img{
-}
+    }
 
-    .main .seccion .articulo .envio{}
+    .main .seccion .articulo .envio{
+        display: block;
+        font-size: 16px;
+        padding:5px;
+        width:30px;
+        height:30px;
+        background-color: var(--blanco);
+        border-radius:50%;
+        position: relative;
+        top: -20px;
+    }
 
     .main .seccion .articulo .precio{
         font-size: var(--precios);
     }
 
     .main .seccion .articulo .oferta{
-        font-size: var(--descuentos);
+        display: block;
+        color: var(--verde);
+        position: relative;
+        top: -29px;
+        right: -90px;
+
     }
 
     .main .seccion .articulo .div-h5{
         display: block;
-        margin-top: 16px;
         font-size: var(--descripciones);
     }
 }
