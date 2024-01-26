@@ -68,6 +68,7 @@
         text-align: left;
         margin-left: 14px;
         color: var(--grisOscuro);
+        font-size: var(--titularesVisitasOferta);
     }
 
 @media(min-width:361px) and (max-width:768px){ /*tablet*/
