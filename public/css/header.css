@@ -92,23 +92,24 @@
         width: 33%;
     }
     
-    .home .body-header-componentes .form{
-        width: 33%;
-    }
     .home .body-header-componentes input{
         display: flex;
-        align-items: center;
+        flex-wrap: wrap;
         margin: auto;
     }
     
     .home .body-header-componentes .form i {
-        background-color: var(--grisClaro);
-        border: solid 1px var(--grisOscuro);
-        font-size: 11px;
-        text-align: center;
+        background: white;
+        border: black solid 1px;
+        width: 23px;
+        height: 23px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
         position: absolute;
-        top: 7.1%;
-        right: 38.5%;
+        right: 36%;
+        margin-top: -20px;
     }
 
     .home .body-header-componentes .lupa .fa-magnifying-glass{
@@ -169,22 +170,23 @@
         width: 33%;
     }
     
-    .home .body-header-componentes .form{
-        width: 33%;
-    }
     .home .body-header-componentes input{
         display: flex;
         align-items: flex-end;
     }
     
     .home .body-header-componentes .form i {
-        background-color: var(--grisClaro);
-        border: solid 1px var(--grisOscuro);
-        font-size: 11px;
-        text-align: center;
+        background: white;
+        border: black solid 1px;
+        width: 23px;
+        height: 23px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        right: 39%;
+        margin-top: -20px;
         position: absolute;
-        top: 7.7%;
-        right: 40.5%;
     }
 
     .home .body-header-componentes .lupa .fa-magnifying-glass{
