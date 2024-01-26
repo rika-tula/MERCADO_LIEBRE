@@ -1,78 +1,75 @@
-.main {
-    width: 90%;
-    background-color: var(--grisClaro);
-    margin: 0 auto;
-}
-.main .banner{
-    width: 100%;
-}
-.articulo img{
-    width: 100%;
-    border-bottom: solid 1px var(--grisClaro);
-}
 
-.articulo{
-    background-color: var(--blanco);
-    border-top: solid 1px var(--gris);
-    padding: 15px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    margin: 10px;
-    border: solid 1px var(--gris);
-}
+    .main {
+        width: 90%;
+        background-color: var(--grisClaro);
+        margin: 0 auto;
+    }
+    .main .banner{
+        width: 100%;
+    }
+    .articulo img{
+        width: 100%;
+        border-bottom: solid 1px var(--grisClaro);
+    }
+    
+    .articulo{
+        background-color: var(--blanco);
+        border-top: solid 1px var(--gris);
+        padding: 15px;
+        border-radius: 5px;
+        margin: 10px;
+        border: solid 1px var(--gris);
+    }
+    
+    .articulo .fa-truck{
+        color: var(--verde);
+    }
+    
+     .articulo .envio{
+        display: block;
+        font-size: 15px;
+        padding:5px;
+        width: 28px;
+        height:30px;
+        border:1px solid var(--verde);
+        background-color: var(--blanco);
+        border-radius: 50%;
+        position: relative;
+        top: -20px;
+        margin-left: auto;
+    }
+    
+    .articulo .precio{
+        font-size: var(--precios);
+        display: block;
+        position: relative;
+        top: -10px;
+    }
+    
+    .articulo .oferta{
+        display: block;
+        font-size: var(--descuentos);
+        color: var(--verde);
+        position: relative;
+        top: -30px;
+        right: -92px;
+    }
 
-.articulo .fa-truck{
-    color: var(--verde);
-}
-
- .articulo .envio{
-    display: block;
-    font-size: 16px;
-    padding:5px;
-    width:30px;
-    height:30px;
-    border:1px solid var(--verde);
-    background-color: var(--blanco);
-    border-radius:50%;
-    position: relative;
-    top: -20px;
-    margin-left: auto;
-}
-
-.articulo .precio{
-    display: block;
-    position: relative;
-    top: -10px;
-}
-
-.articulo .oferta{
-    display: block;
-    font-size: var(--descuentos);
-    color: var(--verde);
-    position: relative;
-    top: -29px;
-    right: -90px;
-}
-.articulo .div-h5{
-    display: block;
-    position: relative;
-    top: -5px;
-    margin-bottom: 0px;
-    font-weight: normal;
-    color: var(--grisOscuro);
-}
-
-.seccion{
-    display: flex; 
-    flex-direction: column ;
-}
-.seccion h4{
-    text-align: left;
-    margin-left: 14px;
-    color: var(--grisOscuro);
-    margin-bottom: 10px;
-}
-
+    .articulo .div-h5{
+        display: block;
+        position: relative;
+        top: -5px;
+        margin-bottom: 0px;
+        font-weight: normal;
+        color: var(--grisOscuro);
+    }
+    
+    .seccion h4{
+        text-align: left;
+        margin-left: 14px;
+        color: var(--grisOscuro);
+        margin-bottom: 10px;
+    }
 
 @media(min-width:361px) and (max-width:768px){ /*tablet*/
     
@@ -81,16 +78,12 @@
         background-color: var(--grisClaro);
     }
 
-    .main .seccion{}
-
-    .main .seccion h4{}
+    .main .seccion{display: flex;flex-wrap: wrap;}
 
     .main .seccion .articulo{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
-    .main .seccion .articulo img{
-    }
 
     .main .seccion .articulo .envio{
         display: block;
@@ -121,58 +114,15 @@
         font-size: var(--descripciones);
     }
 }
-
 @media(min-width:769px) { /*Desktop*/
- 
-    .home img{}
-    
-    .home form{}
-    
-    .home form input{}
-    
-    .home .lupa {}
-    
-    .home div{
-        width: 100%;
-    }
-    .home div h4{
-        padding: 0px;
-        text-align: center;
-    }
-    
-    .home .nav{
-        display: block;
-    }
-    
-    .home .nav ul{
-    padding-left: 5px;
-    }
-    .home .nav .ul{
-        padding-left: 5px;
-        padding-bottom: 15px;
-    }
-    
-    .home a{
-    }
-    
-    .home .burger-menu i{
-        display: none;
-    }
-
+  
     .main {
         width: 90%;
         background-color: var(--grisClaro);
     }
 
-    .main .seccion{}
-
-    .main .seccion h4{}
-
     .main .seccion .articulo{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-
-    .main .seccion .articulo img{
     }
 
     .main .seccion .articulo .envio{
@@ -196,8 +146,7 @@
         color: var(--verde);
         position: relative;
         top: -29px;
-        right: -90px;
-
+        right: -86px;
     }
 
     .main .seccion .articulo .div-h5{
