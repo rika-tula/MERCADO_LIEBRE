@@ -203,7 +203,7 @@
     .home nav{
         margin: 0px 36px 10px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     
     .home nav ul{
