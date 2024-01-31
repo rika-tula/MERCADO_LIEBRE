@@ -51,63 +51,67 @@
 
     <main class='main'>
         <div class="container">
-            <h2>Registrarse</h2>
+            <h2 class="pt-3 text-center">Registrarse</h2>
             <form>
                 <div class="form-group">
-                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder=" Nombre y apellido" required>
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder=" Nombre y apellido"
+                        required>
                 </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Nombre de usuari@" required>
+                <div class="form-group pt-4">
+                    <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Nombre de usuari@"
+                        required>
                 </div>
-                <div class="form-group">
+                <div class="form-group pt-4">
                     <input type="email" class="form-control" id="correo" name="correo" placeholder="Email" required>
                 </div>
-                <div class="form-group">
+                <div class="form-group pt-4">
                     <h5>Fecha de nacimiento</h5>
                     <input type="date" class="form-control" id="fecha" name="fecha" required>
                 </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="dirección" name="dirección" placeholder="Domicilio" required>
+                <div class="form-group pt-4">
+                    <input type="text" class="form-control" id="dirección" name="dirección" placeholder="Domicilio"
+                        required>
                 </div>
-                <div class="form-group">
-                    <label> Perfil de usuario
+                <div class="form-group pt-2">
+                    <h5>Perfil de usuario</h5>
+                    <label class="pt-2">
                         <input type="radio" name="perfil" value="Vendedor"> Vendedor
                     </label>
-                    <label>
+                    <label class="pt-2">
                         <input type="radio" name="perfil" value="Comprador"> Comprador
-                </label>
+                    </label>
                 </div>
-                <div class="form-group">
-                    <label>Categoria de Interés
+                <div class="form-group d-flex flex-column pt-2">
+                    <h5>Categoria de Interés</h5>
+                    <label class="pt-2">
                         <input type="checkbox" name="Categoria" value="Electo"> Electo
                     </label>
-                    <label>
+                    <label class="pt-2">
                         <input type="checkbox" name="Categoria" value="Moda"> Moda
                     </label>
-                    <label>
+                    <label class="pt-2">
                         <input type="checkbox" name="Categoria" value="Hogar"> Hogar
                     </label>
-                    <label>
+                    <label class="pt-2">
                         <input type="checkbox" name="Categoria" value="Jugueteria"> Jugueteria
                     </label>
-                    <label>
+                    <label class="pt-2">
                         <input type="checkbox" name="Categoria" value="Vida Sana"> Vida Sana
                     </label>
                 </div>
-                <div class="form-group">
-                    Foto de Usuario
+                <div class="form-group pt-3">
+                    <h5>Foto de Usuario</h5>
                     <input type="file" id="foto" name="foto">
                 </div>
-                <div class="form-group">
-                    Contraseña
-                    <input type="password" class="form-control" id="contraseña" name="contraseña" required>
+                <div class="form-group pt-3">
+                    <input type="password" class="form-control" id="contraseña" name="contraseña"
+                        placeholder="Contraseña" required>
                 </div>
-                <div class="form-group">
-                    Confirme su contraseña
+                <div class="form-group pt-3">
                     <input type="password" class="form-control" id="repetirContraseña" name="repetirContraseña"
-                        required>
+                        placeholder="Confirme su contraseña" required>
                 </div>
-                <div class="form-group">
+                <div class="form-group pt-3">
                     <a href="/">Volver</a>
                     <button type="reset" class="btn btn-primary">Borrar</button>
                     <button type="submit" class="btn btn-primary">Enviar</button>

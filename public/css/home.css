@@ -74,7 +74,7 @@
 @media(min-width:361px) and (max-width:768px){ /*tablet*/
     
     .main {
-        width: 90%;0%; */
+        width: 90%;
         background-color: var(--grisClaro);
     }
 
