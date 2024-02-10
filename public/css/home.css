@@ -85,10 +85,17 @@
     }
 
     .main .seccion .articulo {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        width: 45%;
+        width: 40%;
     }
 
+    .main .seccion .articulo .detalles{
+        position: relative;
+    }
+
+    .main .seccion .articulo:hover{
+        transition: 0.5s;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
 
     .main .seccion .articulo .envio{
         display: block;
@@ -100,6 +107,12 @@
         border-radius:50%;
         position: relative;
         top: -20px;
+    }
+
+    
+    .main .seccion .articulo .envio:hover{
+        transition: 0.5s ease-in-out;
+        transform: rotate(-90deg);
     }
 
     .main .seccion .articulo .precio{
@@ -115,8 +128,18 @@
     }
 
     .main .seccion .articulo .div-h5{
-        display: block;
+        display:none;
         font-size: var(--descripciones);
+    }
+
+    .main .seccion .articulo .div-h5:hover{
+        display: block;
+    }
+
+    .main .seccion .articulo:hover .div-h5{
+        display: block;
+        position: absolute;
+        top: 3em;
     }
 }
 @media(min-width:769px) { /*Desktop*/
@@ -133,8 +156,17 @@
     }
 
     .main .seccion .articulo{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 21%;
+    }
+
+    .main .seccion .articulo .detalles{
+        position: relative;
+    }
+
+    .main .seccion .articulo:hover{
+        transition: 0.5s;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
     }
 
     .main .seccion .articulo .envio{
@@ -149,6 +181,13 @@
         top: -20px;
     }
 
+    
+    .main .seccion .articulo .envio:hover{
+        transition: 0.5s ease-in-out;
+        transform: rotate(-90deg);
+    }
+
+
     .main .seccion .articulo .precio{
         font-size: var(--precios);
     }
@@ -162,7 +201,13 @@
     }
 
     .main .seccion .articulo .div-h5{
-        display: block;
+        display: none;
         font-size: var(--descripciones);
+    }
+
+    .main .seccion .articulo:hover .div-h5{
+        display: block;
+        position: absolute;
+        top: 3em;
     }
 }
