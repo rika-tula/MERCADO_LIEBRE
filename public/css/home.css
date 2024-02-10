@@ -132,10 +132,6 @@
         font-size: var(--descripciones);
     }
 
-    .main .seccion .articulo .div-h5:hover{
-        display: block;
-    }
-
     .main .seccion .articulo:hover .div-h5{
         display: block;
         position: absolute;
