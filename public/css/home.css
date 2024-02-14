@@ -3,9 +3,7 @@
     background-color: var(--grisClaro);
     margin: 0 auto;
 }
-.main .banner{
-    width: 100%;
-}
+
 .articulo img{
     width: 100%;
     border-bottom: solid 1px var(--grisClaro);
@@ -53,51 +51,14 @@
 
 @media(min-width:360px) and (max-width:768px){ /*tablet*/
 
-    .home img{}
-    
-    .home form{}
-    
-    .home form input{}
-    
-    .home .lupa {}
-    
-    .home div{
-        width: 100%;
-    }
-    .home div h4{
-        text-align: center;
-    }
-    
-    .home nav{
-        display: block;
-    }
-    
-    .home nav ul{
-    }
-    
-    .home a{}
-    
-    .home .burger-menu i{
-        display: none;
-    }
-
     .main {
         width: 90%;
         background-color: var(--grisClaro);
     }
 
-    .main .seccion{}
-
-    .main .seccion h4{}
-
     .main .seccion .articulo{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
-
-    .main .seccion .articulo img{
-}
-
-    .main .seccion .articulo .envio{}
 
     .main .seccion .articulo .precio{
         font-size: var(--precios);
@@ -115,51 +76,20 @@
 }
 
 @media(min-width:769px) { /*Desktop*/
-    .home img{}
-    
-    .home form{}
-    
-    .home form input{}
-    
-    .home .lupa {}
-    
-    .home div{
-        width: 100%;
-    }
-    .home div h4{
-        text-align: center;
-    }
-    
-    .home nav{
-        display: block;
-    }
-    
-    .home nav ul{
-    }
-    
-    .home a{}
-    
-    .home .burger-menu i{
-        display: none;
-    }
 
     .main {
         width: 90%;
         background-color: var(--grisClaro);
     }
 
-    .main .seccion{}
-
-    .main .seccion h4{}
+   
 
     .main .seccion .articulo{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
-    .main .seccion .articulo img{
-}
+   
 
-    .main .seccion .articulo .envio{}
 
     .main .seccion .articulo .precio{
         font-size: var(--precios);

@@ -1,4 +1,9 @@
-.home img{
+.home .banner{
+    width: 100%;
+    margin: 15px 0px 0px 0px;
+}
+
+.home .logo{
     width: 35%;
     margin: 18px 20px 15px 20px;
 }
@@ -50,4 +55,42 @@
     margin-left: 140px;
     padding: 8px 8px 7px 8px;
     border-radius: 5px;
+}
+
+@media(min-width:360px) and (max-width:768px){ /*tablet*/
+
+    
+    .home div{
+        width: 100%;
+    }
+    .home div h4{
+        text-align: center;
+    }
+    
+    .home nav{
+        display: block;
+        margin-left: 10px;
+    }
+    
+    .home .burger-menu i{
+        display: none;
+    }
+}
+
+@media(min-width:769px) { /*Desktop*/
+   
+    .home div{
+        width: 100%;
+    }
+    .home div h4{
+        text-align: center;
+    }
+    
+    .home nav{
+        display: block;
+    }
+    
+    .home .burger-menu i{
+        display: none;
+    }
 }
