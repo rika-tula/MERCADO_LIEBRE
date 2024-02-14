@@ -88,6 +88,7 @@
     
     .home nav{
         display: block;
+        margin-left: 10px;
     }
     
     .home .burger-menu i{
