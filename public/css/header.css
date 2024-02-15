@@ -10,10 +10,15 @@
         padding: 24px;
     }
     
-    .home .body-header-componentes img{
+    .home .body-header-componentes .logo{
         width: 50%;
     }
     
+    .home .banner{
+        width: 100%;
+    }
+
+
     .home .body-header-componentes .form{
         width: 50%;
         position: relative;
@@ -21,27 +26,31 @@
     }
     .home .body-header-componentes input{
         font-size: 13px;
-        position: relative;
+        position: absolute;
         top: 0px;
         padding: 5px 0px 5px 0px;
         border: 0px;
         border-radius: 5px;
     }
     
-    .home .body-header-componentes .form i {
-        position: absolute;
-        right: 3%;
-        top: 1px;
+     .home .body-header-componentes .form .barra{
+         position: relative;
+     }
+    
+     .home .body-header-componentes .form .barra i{
+        position: relative;
+     }
+
+    .home .body-header-componentes .lupa .fa-magnifying-glass{
         background-color: var(--blanco);
         padding: 4px;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
         font-size: 14px;
-    }
-
-    .home .body-header-componentes .lupa .fa-magnifying-glass{
-        font-size: 12px;
         color: var(--grisOscuro);
+        position: absolute;
+        left: 41vw;
+        top: 0.5vw;
     }
     
     .home .body-header-componentes .h4{
@@ -88,33 +97,36 @@
         padding: 15px;
     }
     
-    .home .body-header-componentes img{
+    .home .body-header-componentes .logo{
         width: 33%;
+    }
+
+    .home .banner{
+        width: 100%;
     }
     
     .home .body-header-componentes input{
         display: flex;
         flex-wrap: wrap;
         margin: auto;
+        position: absolute;
+    }
+
+    .home .body-header-componentes .form .barra {
+        position: relative;
     }
     
     .home .body-header-componentes .form i {
         background: white;
         border: black solid 1px;
-        width: 23px;
-        height: 23px;
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        justify-content: center;
-        position: absolute;
-        right: 36%;
-        margin-top: -20px;
+       
     }
 
     .home .body-header-componentes .lupa .fa-magnifying-glass{
         font-size: 10px;
         color: var(--grisOscuro);
+        position: absolute;
+        right: 1vw;
     }
     
     .home .body-header-componentes .h4{
@@ -166,8 +178,12 @@
         padding: 15px;
     }
     
-    .home .body-header-componentes img{
+    .home .body-header-componentes .logo{
         width: 33%;
+    }
+
+    .home .banner{
+        width: 100%;
     }
     
     .home .body-header-componentes input{
