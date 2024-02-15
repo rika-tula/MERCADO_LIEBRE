@@ -10,38 +10,43 @@
         padding: 24px;
     }
     
-    .home .body-header-componentes img{
+    .home .body-header-componentes .logo{
         width: 50%;
     }
     
+    .home .banner{
+        width: 100%;
+    }
+
+
     .home .body-header-componentes .form{
         width: 50%;
         position: relative;
         top: 10px;
     }
     .home .body-header-componentes input{
+        display: flex;
         font-size: 13px;
-        position: relative;
-        top: 0px;
-        padding: 5px 0px 5px 0px;
         border: 0px;
         border-radius: 5px;
+        width: 45vw;
+        padding: 4px;
     }
     
-    .home .body-header-componentes .form i {
-        position: absolute;
-        right: 3%;
-        top: 1px;
+     .home .body-header-componentes .form .barra{
+         position: relative;
+     }
+
+    .home .body-header-componentes .lupa .fa-magnifying-glass{
         background-color: var(--blanco);
         padding: 4px;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
         font-size: 14px;
-    }
-
-    .home .body-header-componentes .lupa .fa-magnifying-glass{
-        font-size: 12px;
         color: var(--grisOscuro);
+        position: absolute;
+        left: 41vw;
+        top: 0.2vw;
     }
     
     .home .body-header-componentes .h4{
@@ -84,49 +89,59 @@
     .body-header-componentes{
         display: flex;
         align-items: center;
-        justify-content: space-around;
-        padding: 15px;
+        justify-content: space-between;
+        padding: 12px;
     }
     
-    .home .body-header-componentes img{
+    .home .body-header-componentes .logo{
         width: 33%;
+    }
+
+    .home .banner{
+        width: 100%;
     }
     
     .home .body-header-componentes input{
         display: flex;
         flex-wrap: wrap;
-        margin: auto;
+        padding: 4px;
+        border: 0px;
+        border-radius: 5px;
+        width: 27vw;
+    }
+
+    .home .body-header-componentes .form .barra {
+        position: relative;
     }
     
     .home .body-header-componentes .form i {
         background: white;
-        border: black solid 1px;
-        width: 23px;
-        height: 23px;
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        justify-content: center;
-        position: absolute;
-        right: 36%;
-        margin-top: -20px;
+       
     }
 
     .home .body-header-componentes .lupa .fa-magnifying-glass{
-        font-size: 10px;
+        padding: 4px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: 14px;
         color: var(--grisOscuro);
+        position: absolute;
+        right: 0vw;
+        top: 0vw;
+        border: 0px;
     }
     
     .home .body-header-componentes .h4{
         font-size: var(--cuerpoDeTexto);
         width: 33%;
         font-weight: normal;
+        font-size: 1.5555vw;
     }
     
     .home nav{
         margin: 0px 24px 10px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     
     .home nav ul{
@@ -137,10 +152,10 @@
     }
 
     .home nav ul li a{
-        font-size: var(--cuerpoDeTexto);
+        font-size: 2vw;
         text-decoration: none;
-        margin: 0px 4px;
         display: flex;
+        margin: 0px 4px;
     }
     
     .home a{
@@ -166,32 +181,47 @@
         padding: 15px;
     }
     
-    .home .body-header-componentes img{
+    .home .body-header-componentes .logo{
         width: 33%;
+    }
+
+    .home .banner{
+        width: 100%;
     }
     
     .home .body-header-componentes input{
         display: flex;
         align-items: flex-end;
+        padding: 4px;
+        border: 0px;
+        border-radius: 5px;
+        width: 27vw;
+    }
+
+    .home .body-header-componentes .form .barra {
+        position: relative;
     }
     
     .home .body-header-componentes .form i {
         background: white;
-        border: black solid 1px;
         width: 23px;
         height: 23px;
         display: flex;
         align-items: center;
         flex-wrap: wrap;
         justify-content: center;
-        right: 39%;
-        margin-top: -20px;
-        position: absolute;
     }
 
     .home .body-header-componentes .lupa .fa-magnifying-glass{
-        font-size: 10px;
+        background-color: var(--blanco);
+        padding: 4px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: 14px;
         color: var(--grisOscuro);
+        position: absolute;
+        top: 0vw;
+        right: 0vw;
     }
     
     .home .body-header-componentes .h4{
