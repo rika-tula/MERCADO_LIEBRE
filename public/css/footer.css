@@ -43,4 +43,8 @@
         text-align: left;
     }
 
+    .footer .seccion .parrafo .icono:hover{
+        transition: 0.5s;
+        color:var(--azul)
+    }
 }

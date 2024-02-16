@@ -191,7 +191,6 @@
     
     .home .body-header-componentes input{
         display: flex;
-        align-items: flex-end;
         padding: 4px;
         border: 0px;
         border-radius: 5px;
