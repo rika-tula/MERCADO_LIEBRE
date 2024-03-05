@@ -11,8 +11,8 @@ router.get('/crear-producto', create);
 router.post('/crear-producto', store); 
 
 /*** EDIT ONE PRODUCT ***/ 
-router.get('/editar/:id', edit); 
-router.put('/editar/:id', update); 
+router.get('/editar-producto/:id', edit); 
+router.put('/editar-producto/:id', update); 
 
 router.delete('/eliminar-producto/:id', destroy); 
 
