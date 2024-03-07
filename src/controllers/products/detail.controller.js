@@ -11,7 +11,6 @@ module.exports = (req, res) => {
 
     res.render('./products/detail', {
         product: productFind,
-
         toThousand
     })
 }
