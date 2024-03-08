@@ -21,7 +21,7 @@ module.exports = (req, res) => {
 
                 const pathFile = path.join(__dirname, `../../../public/images/products/${p.image}`);
                 const exisFile = fs.existsSync(pathFile)
-                
+
                 if (exisFile) {
                     fs.unlinkSync(pathFile)
                 }
